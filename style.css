@@ -10,7 +10,7 @@ body {
 
 /* Header */
 .header {
-  height: 100vh;
+  height: 110vh;
   background-image: url(./asset/Group\ 22.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,7 +206,7 @@ body {
   background-size: cover;
 }
 .asso-text {
-  margin-top: 400px;
+  margin-top: 360px;
   width: 35%;
   color: #ffffff;
 }
