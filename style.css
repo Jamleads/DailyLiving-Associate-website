@@ -10,7 +10,7 @@ body {
 
 /* Header */
 .header {
-  height: 90vh;
+  height: 100vh;
   background-image: url(./asset/Group\ 22.png);
   background-repeat: no-repeat;
   background-size: cover;
