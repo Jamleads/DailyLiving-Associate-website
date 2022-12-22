@@ -119,17 +119,6 @@ body {
 }
 
 /* About */
-.about-content {
-  margin-top: 200px;
-}
-.v1 {
-  position: relative;
-}
-.image1 {
-  position: absolute;
-  margin-top: -60px;
-  margin-left: -270px;
-}
 .about-content h3 {
   font-size: 32px;
   font-weight: 500;
@@ -177,7 +166,6 @@ body {
   color: #0ca8e4;
 }
 .med {
-  width: 80%;
   margin-left: 60px;
   height: 265px;
   background: #3eb14d4d;
@@ -195,32 +183,6 @@ body {
   position: absolute;
   margin-top: 40px;
   margin-left: -60px;
-}
-
-/* ass0 */
-.asso {
-  margin-top: 70px;
-  height: 80vh;
-  background-image: url(./asset/bg-2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.asso-text {
-  margin-top: 360px;
-  width: 35%;
-  color: #ffffff;
-}
-.asso-text h3,
-.side1 h3 {
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-}
-.asso-text p,
-.side1 p {
-  font-size: 16px;
-  line-height: 29px;
-  margin-top: 30px;
 }
 
 /* message */
@@ -242,6 +204,16 @@ body {
 }
 .side2 input {
   border: none;
+}
+.side1 h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.side1 p {
+  font-size: 16px;
+  line-height: 29px;
+  margin-top: 30px;
 }
 
 /* footer */
@@ -278,40 +250,31 @@ body {
   .vector {
     position: relative;
     margin-top: 100px;
-    width: 230px;
+    width: 180px;
   }
   .vector1 {
     position: absolute;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-top: -50px;
     /* z-index: -1; */
   }
   .vector3 {
     position: absolute;
-    margin-left: 220px;
+    margin-left: 170px;
     margin-top: -40px;
   }
   .vector4 {
     position: absolute;
-    margin-left: 220px;
-    margin-top: 120px;
+    margin-left: 170px;
+    margin-top: 70px;
   }
   .love {
     position: absolute;
-    margin-left: 185px;
+    margin-left: 135px;
     margin-top: 20px;
   }
   .about-content {
     margin-top: 70px;
-  }
-  .v1 {
-    position: relative;
-  }
-  .image1 {
-    width: 350px;
-    height: 100%;
-    position: absolute;
-    margin-top: -50px;
   }
   .about-content .d-flex {
     width: 100%;
@@ -319,8 +282,14 @@ body {
   .servies h3 {
     font-size: 20px;
   }
-  .med {
-    width: 100%;
+  .image5 {
+    width: 180px;
+    height: 250px;
+    margin-top: 20px;
+  }
+  .med .med-tex {
+    margin-left: 120px;
+    margin-top: 25px;
   }
   .asso {
     display: none;
@@ -333,18 +302,5 @@ body {
 @media screen and (max-width: 390px) {
   .header {
     height: 1250px;
-  }
-  .v1 {
-    position: relative;
-  }
-  .image1 {
-    width: 300px;
-    height: 100%;
-    position: absolute;
-    margin-top: -650px;
-    margin-left: 40px;
-  }
-  .med {
-    width: 100%;
   }
 }
